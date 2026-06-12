@@ -1,0 +1,2 @@
+wwwroot\eventos.html
+C:\Users\amejia1\source\repos\Crudderegistrodeevento\Crudderegistrodeevento\wwwroot\eventos.html

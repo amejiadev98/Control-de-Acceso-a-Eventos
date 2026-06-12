@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\repositories\\ieventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\repositories\\ieventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\repositories\\eventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\repositories\\eventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\wwwroot\\eventos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\wwwroot\\eventos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\crudderegistrodeevento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\crudderegistrodeevento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|c:\\users\\amejia1\\source\\repos\\crudderegistrodeevento\\crudderegistrodeevento\\dtos\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF03FA5-FA8F-F56C-2949-C009AFE4F27B}|Crudderegistrodeevento\\Crudderegistrodeevento.csproj|solutionrelative:crudderegistrodeevento\\dtos\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:25.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Controllers\\EventoController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:42.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEventoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Repositories\\IEventoRepository.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Repositories\\IEventoRepository.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Repositories\\IEventoRepository.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Repositories\\IEventoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:29.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Models\\Evento.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Models\\Evento.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:17.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Program.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Program.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Program.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:55.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Repositories\\EventoRepository.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Repositories\\EventoRepository.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Repositories\\EventoRepository.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\Repositories\\EventoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:36.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "eventos.html",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\wwwroot\\eventos.html",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\wwwroot\\eventos.html",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\wwwroot\\eventos.html",
+              "RelativeToolTip": "Crudderegistrodeevento\\wwwroot\\eventos.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-11T23:46:46.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Crudderegistrodeevento.csproj",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Crudderegistrodeevento.csproj",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\Crudderegistrodeevento.csproj",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\Crudderegistrodeevento.csproj",
+              "RelativeToolTip": "Crudderegistrodeevento\\Crudderegistrodeevento.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-11T23:47:02.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventoDto.cs",
+              "DocumentMoniker": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\DTOs\\EventoDto.cs",
+              "RelativeDocumentMoniker": "Crudderegistrodeevento\\DTOs\\EventoDto.cs",
+              "ToolTip": "C:\\Users\\amejia1\\source\\repos\\Crudderegistrodeevento\\Crudderegistrodeevento\\DTOs\\EventoDto.cs",
+              "RelativeToolTip": "Crudderegistrodeevento\\DTOs\\EventoDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T23:46:22.065Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Eventos CRUD</title>
+  <style>
+	body { font-family: Arial, sans-serif; margin: 20px; }
+	form { margin-bottom: 20px; }
+	label { display: block; margin-top: 8px; }
+	table { border-collapse: collapse; width: 100%; }
+	th, td { border: 1px solid #ddd; padding: 8px; }
+	th { background: #f4f4f4; }
+	button { margin-right: 6px; }
+	.error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Eventos</h1>
+
+  <form id="form">
+	<input type="hidden" id="eventoId" />
+	<label>Nombre
+	  <input type="text" id="nombre" required maxlength="200" />
+	</label>
+	<label>Fecha
+	  <input type="date" id="fecha" required />
+	</label>
+	<div style="margin-top:8px;">
+	  <button type="submit" id="submitBtn">Crear</button>
+	  <button type="button" id="cancelBtn" style="display:none;">Cancelar</button>
+	</div>
+	<div id="error" class="error"></div>
+  </form>
+
+  <table>
+	<thead>
+	  <tr><th>Id</th><th>Nombre</th><th>Fecha</th><th>Acciones</th></tr>
+	</thead>
+	<tbody id="lista"></tbody>
+  </table>
+
+  <script>
+	const form = document.getElementById('form');
+	const nombreInput = document.getElementById('nombre');
+	const fechaInput = document.getElementById('fecha');
+	const idInput = document.getElementById('eventoId');
+	const submitBtn = document.getElementById('submitBtn');
+	const cancelBtn = document.getElementById('cancelBtn');
+	const errorDiv = document.getElementById('error');
+
+	async function load() {
+	  errorDiv.textContent = '';
+	  const res = await fetch('/api/evento');
+	  if (!res.ok) { errorDiv.textContent = 'Error loading eventos'; return; }
+	  const data = await res.json();
+	  const tbody = document.getElementById('lista');
+	  tbody.innerHTML = '';
+	  data.forEach(e => {
+		const tr = document.createElement('tr');
+		const fecha = new Date(e.fecha).toLocaleDateString();
+		tr.innerHTML = `<td>${e.id}</td><td>${escapeHtml(e.nombre)}</td><td>${fecha}</td><td>
+		  <button data-id="${e.id}" class="edit">Editar</button>
+		  <button data-id="${e.id}" class="del">Eliminar</button>
+		</td>`;
+		tbody.appendChild(tr);
+	  });
+
+	  document.querySelectorAll('.edit').forEach(b => b.addEventListener('click', ev => {
+		const id = ev.currentTarget.getAttribute('data-id');
+		editEvent(id);
+	  }));
+
+	  document.querySelectorAll('.del').forEach(b => b.addEventListener('click', ev => {
+		const id = ev.currentTarget.getAttribute('data-id');
+		if (confirm('¿Eliminar evento?')) deleteEvent(id);
+	  }));
+	}
+
+	function escapeHtml(text) {
+	  return text.replace(/[&"'<>]/g, c => ({'&':'&amp;','"':'&quot;',"'":'&#39;','<':'&lt;','>':'&gt;'}[c]));
+	}
+
+	form.addEventListener('submit', async (e) => {
+	  e.preventDefault();
+	  errorDiv.textContent = '';
+	  const nombre = nombreInput.value.trim();
+	  const fecha = fechaInput.value;
+	  if (!nombre) { errorDiv.textContent = 'Nombre es obligatorio'; return; }
+	  if (!fecha) { errorDiv.textContent = 'Fecha es obligatoria'; return; }
+	  const selectedDate = new Date(fecha);
+	  const today = new Date();
+	  today.setHours(0,0,0,0);
+	  if (selectedDate < today) { errorDiv.textContent = 'Fecha no puede ser pasada'; return; }
+
+	  const payload = { Nombre: nombre, Fecha: fecha };
+	  try {
+		const id = idInput.value;
+		let res;
+		if (id) {
+		  res = await fetch(`/api/evento/${id}`, {
+			method: 'PUT', headers: {'Content-Type':'application/json'}, body: JSON.stringify(payload)
+		  });
+		} else {
+		  res = await fetch('/api/evento', {
+			method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(payload)
+		  });
+		}
+		if (!res.ok) {
+		  const err = await res.json().catch(() => ({}));
+		  errorDiv.textContent = err?.error || 'Error saving evento';
+		  return;
+		}
+		resetForm();
+		await load();
+	  } catch (ex) {
+		errorDiv.textContent = 'Error network';
+	  }
+	});
+
+	cancelBtn.addEventListener('click', () => resetForm());
+
+	async function editEvent(id) {
+	  errorDiv.textContent = '';
+	  const res = await fetch(`/api/evento`);
+	  if (!res.ok) { errorDiv.textContent = 'Error loading evento'; return; }
+	  const data = await res.json();
+	  const e = data.find(x => x.id == id);
+	  if (!e) { errorDiv.textContent = 'Evento no encontrado'; return; }
+	  idInput.value = e.id;
+	  nombreInput.value = e.nombre;
+	  const d = new Date(e.fecha);
+	  const iso = d.toISOString().split('T')[0];
+	  fechaInput.value = iso;
+	  submitBtn.textContent = 'Actualizar';
+	  cancelBtn.style.display = '';
+	}
+
+	async function deleteEvent(id) {
+	  errorDiv.textContent = '';
+	  const res = await fetch(`/api/evento/${id}`, { method: 'DELETE' });
+	  if (!res.ok) { errorDiv.textContent = 'Error deleting evento'; return; }
+	  await load();
+	}
+
+	function resetForm() {
+	  idInput.value = '';
+	  nombreInput.value = '';
+	  fechaInput.value = '';
+	  submitBtn.textContent = 'Crear';
+	  cancelBtn.style.display = 'none';
+	  errorDiv.textContent = '';
+	}
+
+	load();
+  </script>
+</body>
+</html>
